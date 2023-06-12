@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 226, 228, 0.507);
+}
+
+.logo img{
+    width: 110px;
+    box-shadow: 1px 1px 10px rgb(113, 189, 176);
+    overflow: hidden;
+}
+nav ul li {
+    display: flex;
+    display: inline-block;
+    margin: 20px;  
+}
+header nav{
+    background-image:url(./nav.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    background-color: black;
+
+
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li a{
+    text-decoration: navy;
+    color:rgba(255, 255, 255, 0.836);
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    
+}
+#home{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 30px 50px;
+    font-size: 40px;
+    background-image: url(https://assets-global.website-files.com/59e16042ec229e00016d3a66/5dfbd74fe0b6d7150b256a28_digital-marketing-hero.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+#home h1{
+    margin-left: -52px;
+    margin-top: -15px;
+    color: rgb(220, 238, 236);
+
+}
+
+h2{
+    position: relative;
+    left: 42%;
+    font-size:45px;
+}
+#services{
+    background-color: rgb(103, 145, 182);
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+#services img{
+    width:100%;
+    border-radius: 12px;
+}
+h3{
+    position: relative;
+    left: 42%;
+    font-size:25px;
+}
+
+#products{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(121, 169, 211);
+}
+
+.product img{
+    width:100%;
+    border-radius: 12px;
+}
+
+#about{
+   background-color:  rgb(121, 169, 211);
+}
+.service hr{
+    background-color: black;
+    color: black;
+    height: 1px;
+    border: none;
+}
+.product hr{
+    background-color: black;
+    color: black;
+    height: 1px;
+    border: none;
+
+}
+
+.container hr{
+    background-color: rgba(0, 0, 0, 0.233);
+    color: black;
+    height: 1px;
+    border: none;
+
+
+}
+#contact{
+    height: 1%;
+    margin: 2% 8%;
+    border-radius: 10px;
+
+}
+
+.container{
+    padding: 10%;
+    /* background-color:  rgb(121, 169, 211); */
+}
+#about{
+    margin: 2% 8%;
+    border-radius: 10px;
+
+}
